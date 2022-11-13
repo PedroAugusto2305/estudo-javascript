@@ -1,4 +1,5 @@
-/* No javaScript (e em outras linguagens de programação) dados * * podem ser representados de diferentes formas.
+/* 
+No javaScript (e em outras linguagens de programação) dados * * podem ser representados de diferentes formas.
 
 --------------------------------------------------------------------
 
@@ -67,6 +68,54 @@ Hoje em dia já não é mais utilizado de forma recorrente o var, o let é uma f
 --------------------- JavaScript no HTML ---------------------------
 
 É possível utilizar o JS em arquivos HTML, porém não é considerada uma boa prática, desse modo então criamos um novo arquivos para armazenar nossos códigos JS, esse arquivo possuí a extensão .js 
+
+--------------------------------------------------------------------
+
+=> parseFloat: analisa um argumento (convertendo-o para uma string em primeiro caso necessário) e retorna um número de ponto flutuante (número decimal).
+
+--------------------------------------------------------------------
+
+--------------------- Comparadores de Dados ------------------------
+
+Retornam um resultado booleano (true or false)
+
+=> Operadores: 
+  == e === são operadores de igualdade;
+  != e !== operadores de desigualdade;
+  >, >=, <, <= operadores de maior, menor e maior igual, menor igual.
+
+--------------------------------------------------------------------
+
+--------------------- Operadores Lógicos ---------------------------
+
+=> E (AND): Só é verdadeiro se ambas as partes forem verdadeiras
+  Operador &&
+  ---- Tabela Verdade ----
+  true && true === true
+  true && false === false
+  false && true === false
+  false && false === false
+
+=> Ou (OR): Só é falso se ambas as partes forem falsas
+  Operador ||
+  ---- Tabela Verdade ----
+  true || true === true
+  true || false === true
+  false || true === true
+  false || false === false
+
+=> Não (NOT): Inverte o resultado (de verdadeiro para falso e vice-versa)
+Operador !
+---- Tabela Verdade ----
+!true === false
+!false === true
+
+
+
+
+
+
+
 
 
 
