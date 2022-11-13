@@ -110,13 +110,37 @@ Operador !
 !true === false
 !false === true
 
+--------------------------------------------------------------------
 
+-------------- Estruturas Condicionais: IF e ELSE ----------------- 
 
+Permite criar blocos de código que vão ser executados somente quando uma determinada operação lógica for verdadeira.
 
+=> SE condição === true ENTÃO faça algo
 
+Além disso, pode ser usado com o ELSE para acrescentar um bloco que vai ser executado somente quando essa mesma operação lógica for falsa
 
+=> SE condição === true ENTÃO faça alguma coisa SENÃO faça outra coisa
 
+sintaxe:
+  if(condição) {
+    bloco de código a ser executado
+  } else {
+    bloco de código a ser executado
+  }
 
+também é possível fazer dessa forma:
+  if(condição) {
+    bloco de código a ser executado
+  } else if (condição) {
+    bloco de código a ser executado
+  } else {
+    bloco de código a ser executado
+  }
 
+Operador ternário: ? e :
+Forma abreviada e autoavaliada do IF ELSE.
 
+sintaxe:
+const resultado = condicao ? resultado_verdadeiro : resultado_falso
 */
