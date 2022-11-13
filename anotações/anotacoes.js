@@ -62,8 +62,12 @@ Hoje em dia já não é mais utilizado de forma recorrente o var, o let é uma f
 
   -> Incrementar (++) e Drecrementar (--): soma 1 ou subtrai 1;
 
+--------------------------------------------------------------------
+
+--------------------- JavaScript no HTML ---------------------------
+
+É possível utilizar o JS em arquivos HTML, porém não é considerada uma boa prática, desse modo então criamos um novo arquivos para armazenar nossos códigos JS, esse arquivo possuí a extensão .js 
 
 
 
-  
 */
