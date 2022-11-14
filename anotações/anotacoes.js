@@ -173,4 +173,20 @@ sintaxe:
       bloco de código
   }
 
+--------------------------------------------------------------------
+
+-------------- Estruturas de Repetição: While ----------------------
+
+Estruturas de repetição servem para executar um mesmo bloco de código várias vezes.
+O While serve para criar um laço de repetição que será executado enquanto uma determinada condição for verdadeira.
+O While e todas as outras de repetição aceitam o break para parar a repetição a qualquer momento.
+Atenção: é importante que sempre exista uma forma de condição se tornar falsa, ou então o bloco ficará se repetindo para sempre.
+
+ENQUANTO condição FAÇA algo várias vezes.
+
+sintaxe:
+while(condição) {
+  bloco de código
+}
+
 */
