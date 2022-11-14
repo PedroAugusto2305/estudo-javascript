@@ -189,4 +189,18 @@ while(condição) {
   bloco de código
 }
 
+--------------------------------------------------------------------
+
+-------------- Estruturas de Repetição: Do While -------------------
+
+O do while é muito parecido com o while, porém ele garante que o bloco de código será executado pelo menos uma vez, mesmo que a condição seja falsa.
+No do while a primeira verificação da condição só acontece depois que o bloco foi executado uma vez.
+
+FAÇA alguma coisa ENQUANTO condição
+
+sintaxe:
+do{
+  bloco de código
+} while (condição)
+
 */
