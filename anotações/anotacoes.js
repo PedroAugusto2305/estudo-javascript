@@ -143,4 +143,34 @@ Forma abreviada e autoavaliada do IF ELSE.
 
 sintaxe:
 const resultado = condicao ? resultado_verdadeiro : resultado_falso
+
+--------------------------------------------------------------------
+
+-------------- Estruturas Condicionais: Switch --------------------
+
+Permite criar blocos condicionais como o IF, porém com uma estrutura que avalia uma expressão e testa o resultado contra vários casos, executando os casos correspondentes.
+É possível definir um caso padrão, que sempre é executado.
+Também é possível parar a execução após algum dos casos.
+
+SWITCH expressão
+  caso a: faça alguma coisa
+  caso b: faça outra coisa E PARE
+  caso c: faça mais alguma coisa
+  POR PADRÃO: faça algo sempre
+
+sintaxe:
+  switch (expressão) {
+    case "a": 
+      bloco de código
+      break;
+    case "b":
+      bloco de código
+      break;
+    case "c": 
+      bloco de código
+      break;
+    default:
+      bloco de código
+  }
+
 */
