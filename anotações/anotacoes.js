@@ -203,4 +203,24 @@ do{
   bloco de código
 } while (condição)
 
+---------------------------------------------------------------------
+
+-------------- Estruturas de Repetição: For -------------------------
+
+O for também serve para realizar repetições, porém com uma estrutura diferente do while e do do while.
+Ele existe para abreviar o código em casos que seguem essa estrutura especifica:
+  -> Inicialização: expressão executada antes de tudo;
+  -> Condição: condição semelhante ao while, é testada antes da execução do bloco de repetição.
+  -> Finalização: expressão executada após o bloco de repetição.
+
+PARA inicialização; condição; finalização FAÇA alguma coisa
+
+Um exemplo comum de uso do for é quando queremos iterar um número fixo de vezes, como uma vez para cada letra de uma palavra, ou uma vez para cada item de uma lista.
+
+sintaxe:
+for (inicializacao; condicao; finalizacao) {
+  bloco de código
+}
+
+
 */
