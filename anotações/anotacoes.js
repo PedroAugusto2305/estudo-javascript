@@ -222,5 +222,45 @@ for (inicializacao; condicao; finalizacao) {
   bloco de código
 }
 
+---------------------------------------------------------------------
+
+----------------------- Estruturas de Dados -------------------------
+
+São um modo particular de armazenar e organizar dados de modo que possam ser usados eficientemente, facilitando sua busca e modificação.
+
+Estruturas de dados clássicas: 
+  => Lista ligada: Coleção ordenada de valores onde cada elemento aponta para o próximo.
+  => Array: Coleção de elementos que podem ser identificados por um índice.
+  => Fila (Queue): Coleção de elementos onde o primeiro elemento a ser retirado deve ser o primeiro elemento adicionado. Também chamadas de listas FIFO (first-in / first-out, ou primeiro a entrar / primeiro a sair).
+  => Pilha (Stack): Coleção de elementos onde o primeiro elemento a ser retirado deve ser o útimo elemento adicionado. Também chamadas de listas LIFO (last-in / first-out, ou último a entrar / primeiro a sair)
+  => Árvore (Tree): Conjunto de elementos chamados de nós (ou nodes) organizados em estrutura hierárquica (não sequencial), ou seja, podendo estar "abaixo" ou "acima" de outros nós. Pense em uma árvore genealógica, na estrutura das pastas no seu computador ou na estrutura de uma página HTML.
+
+Estruturas de dados no JavaScript: 
+  -> Listas (Arrays)
+  -> Dicionários (Objetos)
+
+---------------------------------------------------------------------
+
+------------------------------ Arrays -------------------------------
+
+É uma estrutura do JavaScript para se trabalhar com todo tipo de lista.
+Seus elementos são identificados por um indice inteiro começando pelo 0.
+Pode armazenar qualquer tipo de dado e ter qualquer tamanho.
+
+Pode ser criado e utilizado através der colchetes []: 
+
+sintaxe:
+  let array = []
+  let array = [1, 2, 3, 4, 7]
+
+  array[0] = 'Olá'
+  array[1] = 42
+
+Possuem funções para vários casos de uso:
+  => enfileirar e desinfileirar;
+  => empilhar e desempilhar;
+  => achar o índice de um valor;
+  => cortar e concatenar;
+  => etc.
 
 */
