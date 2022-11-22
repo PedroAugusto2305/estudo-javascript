@@ -262,5 +262,14 @@ Possuem funções para vários casos de uso:
   => achar o índice de um valor;
   => cortar e concatenar;
   => etc.
+  
+--------------------------------------------------------------------------------
+
+------------------------------ Arrays Bidimensionais ---------------------------
+
+Um array bidimensional é um array com duas dimensões, ou seja, é um array que possui outros arrays dentro de si.
+
+sintaxe:
+  let array = [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]
 
 */
