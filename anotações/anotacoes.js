@@ -325,4 +325,16 @@ function nomeDaFuncao(entradas) {
   return saida
 }
 
+--------------------------------------------------------------------------------
+
+-------------------------------- Objetos Globais -------------------------------
+
+São objetos padrão da linguagem javascript que ficam sempre disponíveis para utilizarmos.
+
+Atenção: Não confundir com o objeto de escopo global window do navegador (ou o escopo global de outros ambientes).
+
+Exemplos: Object, Array, String, Number, Date, Math
+
+Podem ser usados para criar e converter valores.
+Possuem Propriedades e funções úteis e frequentemente necessárias.
 */
